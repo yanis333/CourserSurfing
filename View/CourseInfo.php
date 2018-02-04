@@ -9,11 +9,39 @@
         h1{
             text-align: center;
         }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th, td {
+
+            padding: 20px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        .button {
+            background-color: #4CAF50; /* Green */
+            border: none;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+        .button2 {border-radius: 4px;
+        margin-left:20%}
+        .button2 {border-radius: 4px;}
+
+        tr:hover {background-color:#f5f5f5;}
     </style>
     <script>
         $(document).ready(function(){
+            $("#showww").hide();
             var ID;
-            $("#verf").hide();
             $.post("../Controller/authentification.php",
                 function(data){
 
@@ -22,6 +50,19 @@
                     $("#username1").html(arr["username"]);
                     $("#userid").html(arr["ID"]);
                 });
+            $.post("../Controller/question.php",
+                function(data){
+
+                    var arr = new Array();
+                    arr = JSON.parse(data);
+
+                    $("#title").html(arr['title']);
+                    $("#desc").html(arr['Description']);
+                });
+
+            $("#butoonfg").click(function(){
+                    $("#showww").show();
+            });
 
 
         });
@@ -40,37 +81,31 @@
 <h1 id="title"> THE TITLE</h1>
 <br>
 
-<div>
-    <form action="/action_page.php">
-        <label for="fname">Title</label>
-        <input type="text" id="fname" name="firstname" placeholder="Title...">
+<br>
 
-        <label for="lname">Subject</label>
-        <input type="text" id="lname" name="lastname" placeholder="Subject..">
+<div style="margin-left:20%;margin-right: 20%">
+    <table>
+        <tr>
+            <th>When</th>
+            <td>
+                February 15th, from 8h00AM to 5H00PM
+            </td>
+        </tr>
+        <tr>
+            <th>Where</th>
+            <td>In the conform of my home</td>
+        </tr>
+        <tr>
+            <th>What can I learn</th>
+            <td id="desc"></td>
+        </tr>
 
-
-        <label>Knowledge Required</label>
-        <input type="text" id="req" name="Req" placeholder="Java,Biology1,Psychology2...">
-
-        <label >Status</label>
-        <select id="status" name="status">
-            <option value="Beginner">Beginner</option>
-            <option value="Advanced">Advanced</option>
-        </select>
-
-
-        <label>Time</label>
-        <input type="text" id="time" name="time" placeholder="How much time it will take...">
-
-
-        <label>Description</label>
-        <br>
-        <textarea id="desc" placeholder=" What you are going to teach..." style="width: 100%; "></textarea>
-
-
-        <input id="userId" hidden>
-        <input type="button" id="submit" value="Submit">
-    </form>
-</div>
+    </table>
+    <br>
+    <button id="butoonfg" class="button button2">Register</button>
+    <button class="button button2" onclick="window.location.href='profil.php'">Who is hosting?</button>
+    <br>
+    <h2 id="showww" style="color: green"> we send an email to the hoster or maybe your new friend Pennywise...</h2>
+   </div>
 </body>
 </html>

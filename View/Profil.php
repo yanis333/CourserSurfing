@@ -46,21 +46,7 @@
 </head>
 <body style="background-color:darkgrey">
 
-<nav>
 
-    <ul>
-
-        <li><a href="home.html">Home</a></li>
-
-
-        <li><a href="about.html">About</a></li>
-
-
-        <li><a href="help.html">Help</a></li>
-
-    </ul>
-
-</nav>
 <div style="margin-left:15%; margin-top: 5%;float: left;padding: 3%; width: 20%;  border-style: solid;
     border-color: coral;">
     <img src="../Img/download.jpg" alt="Alex" height="80%" width="100%"/>

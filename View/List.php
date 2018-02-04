@@ -73,7 +73,7 @@
                         this.responseText;
                 }
             };
-            xhttp.open("POST", "../controller/Listhoster.php", true);
+            xhttp.open("POST", "../controller/ListTitle.php", true);
 
             xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
             xhttp.send("value="+MVI);

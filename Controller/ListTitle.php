@@ -8,7 +8,7 @@ include("../config/db_server.php");
  */
 $yanis=3;
 $db = new DB();
-$db->query("Delete * from idtitle");
+$db->query("Delete from idtitle");
 $db->query("insert into idtitle(IDT) VALUES ('".$_POST['value']."')");
 $db->close();
 ?>
