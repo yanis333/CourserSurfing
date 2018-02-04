@@ -71,7 +71,7 @@
         });
     </script>
 </head>
-<body style="background-color:darkgrey">
+<body style="background-color:#add8e6">
 <nav>
     <label id="username1" style="float:right;margin-top:1%;margin-right:3%"></label>
     <label style="float:right;margin-top:1%;">Welcome : </label>
@@ -81,22 +81,22 @@
 <br>
 <br>
 <br>
-<h1> What do you want to teach?</h1>
+<h1> What passion do you whan to share?</h1>
 <br>
-<h2 id="verf" style="color:green"> It was successfully Created!!!</h2>
+<h2 id="verf" style="color:green"> It was successfully Created!</h2>
 
 
 <div>
     <form action="/action_page.php">
         <label for="fname">Title</label>
-        <input type="text" id="fname" name="firstname" placeholder="Title...">
+        <input type="text" id="fname" name="firstname" placeholder="">
 
         <label for="lname">Subject</label>
-        <input type="text" id="lname" name="lastname" placeholder="Subject..">
+        <input type="text" id="lname" name="lastname" placeholder="Oil painting,Web programming,...">
 
 
         <label>Knowledge Required</label>
-        <input type="text" id="req" name="Req" placeholder="Java,Biology1,Psychology2...">
+        <input type="text" id="req" name="Req" placeholder="Basic knowledge required">
 
         <label >Status</label>
         <select id="status" name="status">
@@ -106,12 +106,12 @@
 
 
         <label>Time</label>
-        <input type="text" id="time" name="time" placeholder="How much time it will take...">
+        <input type="text" id="time" name="time" placeholder="">
 
 
         <label>Description</label>
         <br>
-        <textarea id="desc" placeholder=" What you are going to teach..." style="width: 100%; "></textarea>
+        <textarea id="desc" placeholder=" Describe what will you be sharing?" style="width: 100%; "></textarea>
 
 
         <input id="userId" hidden>

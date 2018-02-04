@@ -35,7 +35,7 @@
         }
         .rcorners2 {
             border-radius: 25px;
-            border: 2px solid #73AD21;
+            border: 2px solid white;
             padding: 20px;
         }
         #linko{
@@ -44,35 +44,35 @@
         }
     </style>
 </head>
-<body style="background-color:darkgrey">
+<body style="background-color:#add8e6">
 
 
 <div style="margin-left:15%; margin-top: 5%;float: left;padding: 3%; width: 20%;  border-style: solid;
-    border-color: coral;">
+    border-color: #00008b;">
     <img src="../Img/download.jpg" alt="Alex" height="80%" width="100%"/>
     <br>
 
-    <label style="margin-left:30%;font-size:100%;">Alex Larose</label>
+    <label style="margin-left:30%;font-size:100%;">Eleanor Rugby</label>
     <br>
-    <label style="font-size:100%">Get a coffee and start to code :D</label>
+    <label style="font-size:100%">"PATIENT YOU MUST HAVE, my young programmer" - YODA </label>
 </div>
-<div style="margin-left:5%;height: 20%; width: 50%; margin-top: 5%;float: left; border-style: solid; border-color: red; padding: 3%;" >
+<div style="margin-left:5%;height: 20%; width: 50%; margin-top: 5%;float: left; border-style: solid; border-color: #00008b; padding: 3%;" >
 
-<p>About me:</p>
-<p>My Passion:</p>
-<p>Why I Tutor-Host: dvdvvdvdvddvdvdvdvdvdvvddddddd /n fefefeffe</p>
-<p>Interest(s) : </p>
-<p>Rate:</p>
+    <p><label>About me:</label> I am a software programmer who enjoys trying new experiences and meeting new people.</p>
+    <p><label>My passion:</label> Cooking</p>
+    <p><label>Why I want to tutor:</label> I enjoy meeting new people but most of all, my butter chicken recipe must be shared! </p>
+<p><label>Interest(s):</label> Programming, Hockey and Anime</p>
+
 
 </div>
 <br>
 
-<div style="margin-left:15%; margin-top: 5%;float:left; width: 70%; padding: 3%;  border-style: solid;border-color: coral;">
-    <h2>Review:</h2>
-    <p class="rcorners2">Francis Desjardins :  Awesome guy!!! he explained very well. I learn a lot. Thank you very much Alex for your time and the lunch   </p></div>
-<div style="margin-left:15%; margin-top: 5%; margin-bottom: 10%; float:left; width:60%; padding: 3%;  border-style: solid;border-color: coral;">
-    <h1>Come join me for my next session ! :</h1>
-    <a href="dashboard.php" id="linko">Introduction to Programing</a>
+<div style="margin-left:15%; margin-top: 5%;float:left; width: 70%; padding: 3%;  border-style: solid;border-color: #00008b;">
+    <h2>Review(s):</h2>
+    <p class="rcorners2">Francis Desjardins :  Awesome guy! Explained his recipes very well and was patient with everyone. Gracias Alex for your time and the lunch!  </p></div>
+<div style="margin-left:15%; margin-top: 5%; margin-bottom: 10%; float:left; width:60%; padding: 3%;  border-style: solid;border-color: #00008b;">
+    <h1>Come join me for my next session!</h1>
+    <a href="dashboard.php" id="linko">Basics of Indian Cuisine</a>
     <h4>Description:</h4>
     <p></p>
 

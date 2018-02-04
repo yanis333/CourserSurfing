@@ -44,8 +44,6 @@
                           "            <br>\n" +
                           "            <label style=\"margin-left: 5%\">Time : </label>\n" +
                           "            <label id=\"time"+x+"\"> </label>\n" +
-                          "            <label style=\"margin-left: 25%\">Hoster : </label>\n" +
-                          "            <label id=\"by"+x+"\"  > </label>\n" +
                           "        </div>\n" +
                           "    </li>\n" +
                           "    <br>";
@@ -81,7 +79,7 @@
         }
     </script>
 </head>
-<body style="background-color:darkgrey">
+<body style="background-color:#add8e6">
 <nav>
 
     <label id="username1" style="float:right;margin-top:1%;margin-right:3%"></label>
@@ -92,7 +90,7 @@
 <br>
 <br>
 <br>
-<h1> What do you want to learn this week? </h1>
+<h1> Join a free learning session! </h1>
 <br>
 <ul id="text">
 
