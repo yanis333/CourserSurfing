@@ -26,9 +26,11 @@
         margin-left: 3%;
     }
     #left_block:hover{
-        background-color: red;
+        background-color:#90ee90;
+        border: solid 2px #add8e6;
     }#right_block:hover{
-        background-color: green;
+             background-color:#90ee90;
+             border: solid 2px #add8e6;
     }
 
 </style>
@@ -46,7 +48,7 @@
     </script>
 
 </head>
-<body style="background-color:darkgrey">
+<body style="background-color:#add8e6">
 <nav>
 
     <label id="username1" style="float:right;margin-top:1%;margin-right:3%"></label>
@@ -66,14 +68,14 @@
 
     <h3>CREATE</h3>
     <br>
-    <h4 style="text-align:center">Show your passion and help beginners</h4>
+    <h4 style="text-align:center">Share your passion!</h4>
 </div>
 <div class="block block2" id="right_block" onclick=" window.location.href = 'List.php'">
     <p style="margin-left: 35%;"><img src="../Img/learn.png" align="middle" alt="create" height="50%" width="55%" /></p>
 
     <h3>LEARN</h3>
     <br>
-    <h4 style="text-align:center"> Begin a new passion</h4>
+    <h4 style="text-align:center"> Learn something new!</h4>
 
     <p style="color:green;text-align:center;font-size: 200%;">For Free</p>
 </div>

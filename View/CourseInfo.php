@@ -6,7 +6,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <style>
-        h1{
+        h1,h3{
             text-align: center;
         }
         table {
@@ -68,7 +68,7 @@
         });
     </script>
 </head>
-<body style="background-color:darkgrey">
+<body style="background-color:#add8e6">
 <nav>
     <label id="username1" style="float:right;margin-top:1%;margin-right:3%"></label>
     <label style="float:right;margin-top:1%;">Welcome : </label>
@@ -88,24 +88,24 @@
         <tr>
             <th>When</th>
             <td>
-                February 15th, from 8h00AM to 5H00PM
+                February 15th, from 5:00 PM to 8:00 PM
             </td>
         </tr>
         <tr>
             <th>Where</th>
-            <td>In the conform of my home</td>
+            <td>More details will be provided by the host</td>
         </tr>
         <tr>
-            <th>What can I learn</th>
+            <th>What will I learn?</th>
             <td id="desc"></td>
         </tr>
 
     </table>
     <br>
     <button id="butoonfg" class="button button2">Register</button>
-    <button class="button button2" onclick="window.location.href='profil.php'">Who is hosting?</button>
+    <button class="button button2" onclick="window.location.href='profil.php'">Who is the tutor?</button>
     <br>
-    <h2 id="showww" style="color: green"> we send an email to the hoster or maybe your new friend Pennywise...</h2>
+    <h3 id="showww" style="color: green"> We sent an email to the tutor, he will contact you soon</h3>
    </div>
 </body>
 </html>
